@@ -68,3 +68,8 @@ img {
   position: relative;
   top: -0.4px;
 }
+
+p {
+  text-align: center;
+  font-size: x-small;
+}
