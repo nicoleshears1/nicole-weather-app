@@ -1,0 +1,70 @@
+.container {
+  width: 100%;
+  max-width: 540px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h1 {
+  display: block;
+  font-size: 50px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  line-height: 40px;
+  margin: 0 auto;
+  padding: 10px;
+  text-size-adjust: 100%;
+}
+
+h2 {
+  font-size: 30px;
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+
+  margin: auto;
+  text-decoration-thickness: auto;
+  text-size-adjust: 100%;
+}
+
+ul {
+  list-style: none;
+  color: grey;
+  text-align: right;
+  margin-right: 15px;
+  padding: 10px;
+}
+
+form {
+  text-align: left;
+  padding: 0.5%;
+  margin: 12px auto;
+}
+
+col {
+  text-align: center;
+  padding: 0.5px;
+  margin: auto;
+}
+
+img {
+  text-align: center;
+  padding: 0.7%;
+  max-width: 60px;
+}
+
+.weather-app {
+  border: 0.2px solid;
+  border-radius: 3%;
+  padding: 5%;
+  margin: 20px auto;
+}
+.btn {
+  padding: 3.5px 8px;
+  font-size: 13px;
+  position: relative;
+  top: -0.4px;
+}
