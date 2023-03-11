@@ -7,22 +7,30 @@ let hours = now.getHours();
 let day = now.getDay();
 let date = now.getDate();
 
-if (day === 0) {
+if (day === 1) {
   day = "Mon";
 }
 
-if (day === 1) {
+if (day === 2) {
   day = "Tue";
 }
-if (day === 2) {
+if (day === 3) {
   day = "Wed";
 }
 
-if (day === 3) {
+if (day === 4) {
   day = "Thur";
 }
-if (day === 4) {
+if (day === 5) {
   day = "Fri";
+}
+
+if (day === 6) {
+  day = "Sat";
+}
+
+if (day === 0) {
+  day = "Sun";
 }
 
 let months = [

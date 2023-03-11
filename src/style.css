@@ -21,8 +21,7 @@ h1 {
   text-align: left;
   line-height: 40px;
   margin: 0 auto;
-  padding: 10px;
-  text-size-adjust: 100%;
+  padding: 5px;
 }
 
 h2 {
@@ -30,9 +29,25 @@ h2 {
   color: grey;
   font-family: Arial, Helvetica, sans-serif;
   text-align: left;
-  margin: auto;
+  margin: 0 auto;
   text-decoration-thickness: auto;
   text-size-adjust: 100%;
+  padding: 5px;
+}
+
+h3 {
+  font-size: 30px;
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin: 0 auto;
+  text-decoration-thickness: auto;
+  text-size-adjust: 100%;
+  padding: 5px;
+}
+
+h4 {
+  text-transform: capitalize;
 }
 
 ul {
@@ -50,7 +65,7 @@ form {
 
 col {
   text-align: center;
-  padding: 0.5px;
+  padding: 50px;
   margin: auto;
 }
 
@@ -61,12 +76,20 @@ img {
 }
 
 .btn {
+  text-align: center;
   font-size: 13px;
-  position: relative;
   top: -0.4px;
 }
 
 p {
   text-align: center;
   font-size: x-small;
+}
+
+.list-wrap {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.current_description {
 }
