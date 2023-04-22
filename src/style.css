@@ -58,17 +58,6 @@ ul {
   padding: 10px;
 }
 
-form {
-  padding: 0.5%;
-  margin: 12px auto;
-}
-
-col {
-  text-align: center;
-  padding: 50px;
-  margin: auto;
-}
-
 img {
   text-align: center;
   padding: 0.7%;
@@ -89,7 +78,4 @@ p {
 .list-wrap {
   text-align: center;
   margin: 0 auto;
-}
-
-.current_description {
 }

@@ -25,13 +25,14 @@
   <div class="container">
     <div class="weather-app">
       <h1>London, UK</h1>
-      <h2></h2>
+      <h2> </h2>
       <h3>
-        <span id="large-temp"> <strong> </strong></span>
-        <span class="units">
-          <a href="#" class="disable-link" id="cel-link"> C / </a>
-          <a href="#" id="farenheit-link"> F </a>
-        </span>
+           <strong id="large-temp"> </strong>
+          <span class="units">
+            <a href="#"  id="celsius-link"> C / </a>
+            <a href="#" id="fahrenheit-link"> F </a>
+          </span>
+
       </h3>
 
       <h4><span id="current_description"> </span></h4>
@@ -46,30 +47,31 @@
         </div>
       </ul>
 
-      <form id="search-city">
-        <div class="row">
-          <div class="col-5">
-            <label for="city"> </label>
+ <form id="search-city">
+<div class="container text-center">
+  <div class="row align-items-center">
+    <div class="col">
+
+      <label for="city"> </label>
             <input
               type="text"
               id="city"
               required
               placeholder="search for a city"
-            />
-          </div>
+             /> 
+    </div>
+</form>
+    <div class="col">
+     <button type="submit" class="btn btn-outline-secondary w-10">
+              Submit </div>
 
-          <div class="col-5">
-            <button type="submit" class="btn btn-outline-secondary w-10">
-              Submit
-            </button>
-          </div>
-          <div class="col-5">
-            <button class="btn btn-success" id="current-location-button">
+    <div class="col">
+     <button class="btn btn-success" id="current-location-button">
               current
-            </button>
-          </div>
-        </div>
-      </form>
+            </div>
+</div>
+</div>
+
 
       <div class="list-wrap">
         <div class="row">
