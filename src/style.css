@@ -1,12 +1,15 @@
+body {
+  background-image: url(after_noon.jpeg);
+}
+
 .container {
   width: 100%;
   max-width: 600px;
   padding-right: 15px;
   padding-left: 15px;
   margin: 30px auto;
-  border: 0.2px solid;
+  border: 0.2px;
   border-radius: 10px;
-  border-color: white;
 }
 
 .weather-app {
