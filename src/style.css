@@ -6,6 +6,7 @@
   margin: 30px auto;
   border: 0.2px solid;
   border-radius: 10px;
+  border-color: white;
 }
 
 .weather-app {
@@ -67,7 +68,13 @@ img {
 .btn {
   text-align: center;
   font-size: 13px;
-  top: -0.4px;
+}
+
+form {
+  margin: 20px, 20px, 20px, 20px;
+  text-align: center;
+  padding: 0px;
+  border-color: antiquewhite;
 }
 
 p {
