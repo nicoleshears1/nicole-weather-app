@@ -88,4 +88,20 @@ p {
 .list-wrap {
   text-align: center;
   margin: 0 auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.icon-wrap {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 2px;
+}
+
+.daily-temp-wrap {
+  text-align: center;
+  margin: 0 auto;
+  opacity: 80%;
+  padding-top: 10px;
 }
